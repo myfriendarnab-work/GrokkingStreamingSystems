@@ -26,7 +26,7 @@ public class SourceExecutor extends ComponentExecutor {
     try {
       source.getEvents(eventCollector);
     } catch (Exception e) {
-      return false;  // exit thread
+      return false;  // exit thread ha ha ha
     }
 
     // Emit out
