@@ -34,7 +34,12 @@
 
 	"extensions": [
 		"shd101wyy.markdown-preview-enhanced"
-	]
+	],
+	"mounts": [
+		"source=/Users/bf6712/Library/Fonts,target=/fonts,type=bind,consistency=cached"
+	  ],
+	"runCommand": "cp /fonts/FiraCode-SemiBold.ttf /usr/share/fonts/truetype/fira-code.ttf && fc-cache -f -v",
+
 
 	// Use 'forwardPorts' to make a list of ports inside the container available locally.
 	// "forwardPorts": [],
