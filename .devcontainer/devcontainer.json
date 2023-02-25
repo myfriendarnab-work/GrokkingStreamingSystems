@@ -5,9 +5,12 @@
 	"image": "mcr.microsoft.com/devcontainers/java:1-8-buster",
 	"features": {
 		"ghcr.io/devcontainers/features/java:1": {
-			"version": "none",
-			"installMaven": "true",
-			"installGradle": "true"
+			"installMaven": true,
+			"version": "latest",
+			"jdkDistro": "open",
+			"gradleVersion": "latest",
+			"mavenVersion": "latest",
+			"antVersion": "latest"
 		}
 	},
 
